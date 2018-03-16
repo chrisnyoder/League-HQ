@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1D5E412054DDE10008345A /* resultsContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1D5E402054DDE10008345A /* resultsContoller.swift */; };
+		DA38B57C204B95E800DD4497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38B57B204B95E800DD4497 /* AppDelegate.swift */; };
+		DA38B57E204B95E800DD4497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38B57D204B95E800DD4497 /* ViewController.swift */; };
+		DA38B581204B95E800DD4497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA38B57F204B95E800DD4497 /* Main.storyboard */; settings = {ASSET_TAGS = (Button1, ); }; };
+		DA38B583204B95E800DD4497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA38B582204B95E800DD4497 /* Assets.xcassets */; };
+		DA38B586204B95E800DD4497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA38B584204B95E800DD4497 /* LaunchScreen.storyboard */; };
+		DAA2924C205A03DC00A1F6C1 /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2924B205A03DC00A1F6C1 /* IntroController.swift */; };
+		DAA29292205B201400A1F6C1 /* BeaufortforLOL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29289205B1FD100A1F6C1 /* BeaufortforLOL-Bold.otf */; };
+		DAA29293205B201400A1F6C1 /* BeaufortforLOL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29283205B1FD000A1F6C1 /* BeaufortforLOL-BoldItalic.otf */; };
+		DAA29294205B201400A1F6C1 /* BeaufortforLOL-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928D205B1FD200A1F6C1 /* BeaufortforLOL-Heavy.otf */; };
+		DAA29295205B201400A1F6C1 /* BeaufortforLOL-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29281205B1FCF00A1F6C1 /* BeaufortforLOL-HeavyItalic.otf */; };
+		DAA29296205B201400A1F6C1 /* BeaufortforLOL-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29284205B1FD000A1F6C1 /* BeaufortforLOL-Italic.otf */; };
+		DAA29297205B201400A1F6C1 /* BeaufortforLOL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29287205B1FD100A1F6C1 /* BeaufortforLOL-Light.otf */; };
+		DAA29298205B201400A1F6C1 /* BeaufortforLOL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29285205B1FD100A1F6C1 /* BeaufortforLOL-LightItalic.otf */; };
+		DAA29299205B201400A1F6C1 /* BeaufortforLOL-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29288205B1FD100A1F6C1 /* BeaufortforLOL-Medium.otf */; };
+		DAA2929A205B201400A1F6C1 /* BeaufortforLOL-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29282205B1FD000A1F6C1 /* BeaufortforLOL-MediumItalic.otf */; };
+		DAA2929B205B201400A1F6C1 /* BeaufortforLOL-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928F205B1FD200A1F6C1 /* BeaufortforLOL-Regular.otf */; };
+		DAA2929C205B201400A1F6C1 /* Spiegel-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29286205B1FD100A1F6C1 /* Spiegel-Bold.otf */; };
+		DAA2929D205B201400A1F6C1 /* Spiegel-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928C205B1FD200A1F6C1 /* Spiegel-BoldItalic.otf */; };
+		DAA2929E205B201400A1F6C1 /* Spiegel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928E205B1FD200A1F6C1 /* Spiegel-Regular.otf */; };
+		DAA2929F205B201400A1F6C1 /* Spiegel-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928B205B1FD200A1F6C1 /* Spiegel-RegularItalic.otf */; };
+		DAA292A0205B201400A1F6C1 /* Spiegel-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA2928A205B1FD100A1F6C1 /* Spiegel-SemiBold.otf */; };
+		DAA292A1205B201400A1F6C1 /* Spiegel-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAA29290205B1FD200A1F6C1 /* Spiegel-SemiBoldItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA1D5E402054DDE10008345A /* resultsContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsContoller.swift; sourceTree = "<group>"; };
+		DA38B578204B95E800DD4497 /* League HQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League HQ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA38B57B204B95E800DD4497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA38B57D204B95E800DD4497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA38B580204B95E800DD4497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA38B582204B95E800DD4497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA38B585204B95E800DD4497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA38B587204B95E800DD4497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2924B205A03DC00A1F6C1 /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
+		DAA29281205B1FCF00A1F6C1 /* BeaufortforLOL-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-HeavyItalic.otf"; sourceTree = "<group>"; };
+		DAA29282205B1FD000A1F6C1 /* BeaufortforLOL-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-MediumItalic.otf"; sourceTree = "<group>"; };
+		DAA29283205B1FD000A1F6C1 /* BeaufortforLOL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-BoldItalic.otf"; sourceTree = "<group>"; };
+		DAA29284205B1FD000A1F6C1 /* BeaufortforLOL-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Italic.otf"; sourceTree = "<group>"; };
+		DAA29285205B1FD100A1F6C1 /* BeaufortforLOL-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-LightItalic.otf"; sourceTree = "<group>"; };
+		DAA29286205B1FD100A1F6C1 /* Spiegel-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-Bold.otf"; sourceTree = "<group>"; };
+		DAA29287205B1FD100A1F6C1 /* BeaufortforLOL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Light.otf"; sourceTree = "<group>"; };
+		DAA29288205B1FD100A1F6C1 /* BeaufortforLOL-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Medium.otf"; sourceTree = "<group>"; };
+		DAA29289205B1FD100A1F6C1 /* BeaufortforLOL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Bold.otf"; sourceTree = "<group>"; };
+		DAA2928A205B1FD100A1F6C1 /* Spiegel-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-SemiBold.otf"; sourceTree = "<group>"; };
+		DAA2928B205B1FD200A1F6C1 /* Spiegel-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-RegularItalic.otf"; sourceTree = "<group>"; };
+		DAA2928C205B1FD200A1F6C1 /* Spiegel-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-BoldItalic.otf"; sourceTree = "<group>"; };
+		DAA2928D205B1FD200A1F6C1 /* BeaufortforLOL-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Heavy.otf"; sourceTree = "<group>"; };
+		DAA2928E205B1FD200A1F6C1 /* Spiegel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-Regular.otf"; sourceTree = "<group>"; };
+		DAA2928F205B1FD200A1F6C1 /* BeaufortforLOL-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Regular.otf"; sourceTree = "<group>"; };
+		DAA29290205B1FD200A1F6C1 /* Spiegel-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spiegel-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA38B575204B95E800DD4497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA38B56F204B95E800DD4497 = {
+			isa = PBXGroup;
+			children = (
+				DA38B57A204B95E800DD4497 /* League HQ */,
+				DA38B579204B95E800DD4497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA38B579204B95E800DD4497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA38B578204B95E800DD4497 /* League HQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA38B57A204B95E800DD4497 /* League HQ */ = {
+			isa = PBXGroup;
+			children = (
+				DA38B587204B95E800DD4497 /* Info.plist */,
+				DA38B57B204B95E800DD4497 /* AppDelegate.swift */,
+				DAA2924B205A03DC00A1F6C1 /* IntroController.swift */,
+				DA1D5E402054DDE10008345A /* resultsContoller.swift */,
+				DA38B57D204B95E800DD4497 /* ViewController.swift */,
+				DA38B57F204B95E800DD4497 /* Main.storyboard */,
+				DA38B582204B95E800DD4497 /* Assets.xcassets */,
+				DA38B584204B95E800DD4497 /* LaunchScreen.storyboard */,
+				DAA29280205B1FCF00A1F6C1 /* Fonts */,
+			);
+			path = "League HQ";
+			sourceTree = "<group>";
+		};
+		DAA29280205B1FCF00A1F6C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAA29289205B1FD100A1F6C1 /* BeaufortforLOL-Bold.otf */,
+				DAA29283205B1FD000A1F6C1 /* BeaufortforLOL-BoldItalic.otf */,
+				DAA2928D205B1FD200A1F6C1 /* BeaufortforLOL-Heavy.otf */,
+				DAA29281205B1FCF00A1F6C1 /* BeaufortforLOL-HeavyItalic.otf */,
+				DAA29284205B1FD000A1F6C1 /* BeaufortforLOL-Italic.otf */,
+				DAA29287205B1FD100A1F6C1 /* BeaufortforLOL-Light.otf */,
+				DAA29285205B1FD100A1F6C1 /* BeaufortforLOL-LightItalic.otf */,
+				DAA29288205B1FD100A1F6C1 /* BeaufortforLOL-Medium.otf */,
+				DAA29282205B1FD000A1F6C1 /* BeaufortforLOL-MediumItalic.otf */,
+				DAA2928F205B1FD200A1F6C1 /* BeaufortforLOL-Regular.otf */,
+				DAA29286205B1FD100A1F6C1 /* Spiegel-Bold.otf */,
+				DAA2928C205B1FD200A1F6C1 /* Spiegel-BoldItalic.otf */,
+				DAA2928E205B1FD200A1F6C1 /* Spiegel-Regular.otf */,
+				DAA2928B205B1FD200A1F6C1 /* Spiegel-RegularItalic.otf */,
+				DAA2928A205B1FD100A1F6C1 /* Spiegel-SemiBold.otf */,
+				DAA29290205B1FD200A1F6C1 /* Spiegel-SemiBoldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA38B577204B95E800DD4497 /* League HQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA38B58A204B95E800DD4497 /* Build configuration list for PBXNativeTarget "League HQ" */;
+			buildPhases = (
+				DA38B574204B95E800DD4497 /* Sources */,
+				DA38B575204B95E800DD4497 /* Frameworks */,
+				DA38B576204B95E800DD4497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League HQ";
+			productName = "League HQ";
+			productReference = DA38B578204B95E800DD4497 /* League HQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA38B570204B95E800DD4497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Button1,
+				);
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Christian Yoder";
+				TargetAttributes = {
+					DA38B577204B95E800DD4497 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA38B573204B95E800DD4497 /* Build configuration list for PBXProject "League HQ" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA38B56F204B95E800DD4497;
+			productRefGroup = DA38B579204B95E800DD4497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA38B577204B95E800DD4497 /* League HQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA38B576204B95E800DD4497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38B586204B95E800DD4497 /* LaunchScreen.storyboard in Resources */,
+				DAA2929B205B201400A1F6C1 /* BeaufortforLOL-Regular.otf in Resources */,
+				DAA2929E205B201400A1F6C1 /* Spiegel-Regular.otf in Resources */,
+				DAA29296205B201400A1F6C1 /* BeaufortforLOL-Italic.otf in Resources */,
+				DA38B583204B95E800DD4497 /* Assets.xcassets in Resources */,
+				DAA2929F205B201400A1F6C1 /* Spiegel-RegularItalic.otf in Resources */,
+				DAA29292205B201400A1F6C1 /* BeaufortforLOL-Bold.otf in Resources */,
+				DAA29295205B201400A1F6C1 /* BeaufortforLOL-HeavyItalic.otf in Resources */,
+				DA38B581204B95E800DD4497 /* Main.storyboard in Resources */,
+				DAA29298205B201400A1F6C1 /* BeaufortforLOL-LightItalic.otf in Resources */,
+				DAA29293205B201400A1F6C1 /* BeaufortforLOL-BoldItalic.otf in Resources */,
+				DAA2929D205B201400A1F6C1 /* Spiegel-BoldItalic.otf in Resources */,
+				DAA2929A205B201400A1F6C1 /* BeaufortforLOL-MediumItalic.otf in Resources */,
+				DAA2929C205B201400A1F6C1 /* Spiegel-Bold.otf in Resources */,
+				DAA292A0205B201400A1F6C1 /* Spiegel-SemiBold.otf in Resources */,
+				DAA29297205B201400A1F6C1 /* BeaufortforLOL-Light.otf in Resources */,
+				DAA29294205B201400A1F6C1 /* BeaufortforLOL-Heavy.otf in Resources */,
+				DAA292A1205B201400A1F6C1 /* Spiegel-SemiBoldItalic.otf in Resources */,
+				DAA29299205B201400A1F6C1 /* BeaufortforLOL-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA38B574204B95E800DD4497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA38B57E204B95E800DD4497 /* ViewController.swift in Sources */,
+				DAA2924C205A03DC00A1F6C1 /* IntroController.swift in Sources */,
+				DA1D5E412054DDE10008345A /* resultsContoller.swift in Sources */,
+				DA38B57C204B95E800DD4497 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA38B57F204B95E800DD4497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA38B580204B95E800DD4497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA38B584204B95E800DD4497 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA38B585204B95E800DD4497 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA38B588204B95E800DD4497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA38B589204B95E800DD4497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA38B58B204B95E800DD4497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79NK7QCM89;
+				INFOPLIST_FILE = "League HQ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christian-Yoder.League-HQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA38B58C204B95E800DD4497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79NK7QCM89;
+				INFOPLIST_FILE = "League HQ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Christian-Yoder.League-HQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA38B573204B95E800DD4497 /* Build configuration list for PBXProject "League HQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38B588204B95E800DD4497 /* Debug */,
+				DA38B589204B95E800DD4497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA38B58A204B95E800DD4497 /* Build configuration list for PBXNativeTarget "League HQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA38B58B204B95E800DD4497 /* Debug */,
+				DA38B58C204B95E800DD4497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA38B570204B95E800DD4497 /* Project object */;
+}

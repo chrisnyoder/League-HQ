@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BeaufortforLOL-Bold.otf</string>
+		<string>BeaufortforLOL-BoldItalic.otf</string>
+		<string>BeaufortforLOL-Heavy.otf</string>
+		<string>BeaufortforLOL-HeavyItalic.otf</string>
+		<string>BeaufortforLOL-Italic.otf</string>
+		<string>BeaufortforLOL-Light.otf</string>
+		<string>BeaufortforLOL-LightItalic.otf</string>
+		<string>BeaufortforLOL-Medium.otf</string>
+		<string>BeaufortforLOL-MediumItalic.otf</string>
+		<string>BeaufortforLOL-Regular.otf</string>
+		<string>Spiegel-Bold.otf</string>
+		<string>Spiegel-BoldItalic.otf</string>
+		<string>Spiegel-Regular.otf</string>
+		<string>Spiegel-RegularItalic.otf</string>
+		<string>Spiegel-SemiBold.otf</string>
+		<string>Spiegel-SemiBoldItalic.otf</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

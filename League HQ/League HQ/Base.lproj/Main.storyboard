@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c2m-6y-e5g">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BeaufortforLOL-Bold.otf">
+            <string>BeaufortforLOL-Bold</string>
+        </array>
+        <array key="Spiegel-Regular.otf">
+            <string>Spiegel-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Intro Controller-->
+        <scene sceneID="KTL-T9-zWg">
+            <objects>
+                <viewController id="c2m-6y-e5g" userLabel="Intro Controller" customClass="IntroController" customModule="League_HQ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h9T-Pv-03o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="azZ-KH-wUv">
+                                <rect key="frame" x="71" y="536" width="272" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Wcp-bF-dv3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="23"/>
+                                <state key="normal" title="Start League HQ!" backgroundImage="Button">
+                                    <color key="titleColor" red="0.63921568627450975" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="IqJ-hv-xPM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to League HQ!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GpD-fe-2M7">
+                                <rect key="frame" x="31" y="156" width="352" height="38"/>
+                                <color key="tintColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="30"/>
+                                <color key="textColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.039215686274509803" blue="0.074509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GpD-fe-2M7" firstAttribute="leading" secondItem="Z9h-V8-s3E" secondAttribute="leading" constant="31" id="85O-o5-YMv"/>
+                            <constraint firstItem="Z9h-V8-s3E" firstAttribute="trailing" secondItem="GpD-fe-2M7" secondAttribute="trailing" constant="31" id="LWZ-Ev-rre"/>
+                            <constraint firstItem="azZ-KH-wUv" firstAttribute="centerX" secondItem="h9T-Pv-03o" secondAttribute="centerX" id="aT5-VY-y75"/>
+                            <constraint firstItem="Z9h-V8-s3E" firstAttribute="bottom" secondItem="azZ-KH-wUv" secondAttribute="bottom" constant="138" id="cV6-0Z-sM4"/>
+                            <constraint firstItem="GpD-fe-2M7" firstAttribute="top" secondItem="Z9h-V8-s3E" secondAttribute="top" constant="136" id="q84-Jf-oTC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z9h-V8-s3E"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cz6-F2-1rR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="28.335832083958024"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="League_HQ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="002a - Host Speaking (With Progress)" translatesAutoresizingMaskIntoConstraints="NO" id="TLn-2a-Yu6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Text" translatesAutoresizingMaskIntoConstraints="NO" id="HeG-1k-1UA" userLabel="chat">
+                                <rect key="frame" x="0.0" y="351" width="414" height="385"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HFU-c8-2Bb" userLabel="questionView">
+                                <rect key="frame" x="20" y="32" width="374" height="449"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Question BG" translatesAutoresizingMaskIntoConstraints="NO" id="zaQ-GX-eyb">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="449"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ieu-4D-onV">
+                                        <rect key="frame" x="91" y="18" width="193" height="82"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yYC-ls-RWc">
+                                        <rect key="frame" x="51" y="273" width="272" height="156"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbv-q0-jxj">
+                                                <rect key="frame" x="0.0" y="0.0" width="272" height="44"/>
+                                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="28"/>
+                                                <state key="normal" title="First Response" backgroundImage="Button">
+                                                    <color key="titleColor" red="0.63921568630000003" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="submitAnswer0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akB-5F-u9U"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMF-PD-DQX">
+                                                <rect key="frame" x="0.0" y="56" width="272" height="44"/>
+                                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="28"/>
+                                                <state key="normal" title="Second Response" backgroundImage="Button">
+                                                    <color key="titleColor" red="0.63921568630000003" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="submitAnswer1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r6h-nP-lDa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HC-Op-vHw" userLabel="Button Label3">
+                                                <rect key="frame" x="0.0" y="112" width="272" height="44"/>
+                                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="28"/>
+                                                <state key="normal" title="Third Response " backgroundImage="Button">
+                                                    <color key="titleColor" red="0.63921568630000003" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="submitAnswer2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1HE-OF-aLM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8Z-BR-PBD">
+                                        <rect key="frame" x="164" y="242" width="47.333333333333343" height="23"/>
+                                        <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="18"/>
+                                        <color key="textColor" red="1" green="0.20714840387372901" blue="0.31192798122723697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here is some placeholder text" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeJ-hN-w7N">
+                                        <rect key="frame" x="28" y="8" width="319" height="199"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="26"/>
+                                        <color key="textColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yYC-ls-RWc" firstAttribute="centerX" secondItem="HFU-c8-2Bb" secondAttribute="centerX" id="1Mf-DI-UH7"/>
+                                    <constraint firstAttribute="bottom" secondItem="zaQ-GX-eyb" secondAttribute="bottom" id="3dC-j1-Qve"/>
+                                    <constraint firstAttribute="trailing" secondItem="zaQ-GX-eyb" secondAttribute="trailing" id="5mW-At-Ts8"/>
+                                    <constraint firstAttribute="bottom" secondItem="yYC-ls-RWc" secondAttribute="bottom" constant="20" id="GnS-cL-J9D"/>
+                                    <constraint firstItem="zaQ-GX-eyb" firstAttribute="top" secondItem="HFU-c8-2Bb" secondAttribute="top" id="P0m-Ek-jmR"/>
+                                    <constraint firstItem="zaQ-GX-eyb" firstAttribute="leading" secondItem="HFU-c8-2Bb" secondAttribute="leading" id="xrw-7i-MAa"/>
+                                    <constraint firstItem="yYC-ls-RWc" firstAttribute="top" secondItem="i8Z-BR-PBD" secondAttribute="bottom" constant="8" id="zCP-zR-g3z"/>
+                                    <constraint firstItem="i8Z-BR-PBD" firstAttribute="centerX" secondItem="HFU-c8-2Bb" secondAttribute="centerX" id="zZr-te-gHo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HeG-1k-1UA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7bq-nm-3xo"/>
+                            <constraint firstItem="TLn-2a-Yu6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EP0-Xq-2dw"/>
+                            <constraint firstItem="HeG-1k-1UA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ei6-Rb-SIP"/>
+                            <constraint firstItem="TLn-2a-Yu6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Gfo-7n-5XB"/>
+                            <constraint firstItem="TLn-2a-Yu6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JNg-O6-SpB"/>
+                            <constraint firstItem="TLn-2a-Yu6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MDX-RV-2Pn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HFU-c8-2Bb" secondAttribute="bottom" id="S7d-q7-7bF"/>
+                            <constraint firstItem="HFU-c8-2Bb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="ZxH-3H-nSo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HFU-c8-2Bb" secondAttribute="bottom" multiplier="1.53" id="b5f-2h-EcK"/>
+                            <constraint firstItem="HFU-c8-2Bb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kXx-EN-9uy"/>
+                            <constraint firstItem="HeG-1k-1UA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t0l-qX-p9o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HFU-c8-2Bb" secondAttribute="trailing" constant="20" id="uys-Zu-6uh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLabel1" destination="xbv-q0-jxj" id="jHn-F1-4Iv"/>
+                        <outlet property="buttonLabel2" destination="rMF-PD-DQX" id="o4j-yK-VRN"/>
+                        <outlet property="buttonLabel3" destination="0HC-Op-vHw" id="rpC-Qf-t0W"/>
+                        <outlet property="questionLabel" destination="XeJ-hN-w7N" id="kpl-Ni-yln"/>
+                        <outlet property="questionSubView" destination="HFU-c8-2Bb" id="rqL-3F-x5A"/>
+                        <outlet property="rightOrWrong" destination="ieu-4D-onV" id="v3a-Ft-6W9"/>
+                        <outlet property="timerLabel" destination="i8Z-BR-PBD" id="ILH-gN-xQI"/>
+                        <segue destination="Kqf-Fc-qm6" kind="show" identifier="showResults" id="jdu-yn-WbQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="23.199999999999999" y="29.23538230884558"/>
+        </scene>
+        <!--Results Contoller-->
+        <scene sceneID="CkW-An-6du">
+            <objects>
+                <viewController id="Kqf-Fc-qm6" customClass="resultsContoller" customModule="League_HQ" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eOx-94-oiL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You got x out y correct" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIt-IB-wXj">
+                                <rect key="frame" x="86.666666666666686" y="369" width="241" height="25"/>
+                                <fontDescription key="fontDescription" name="Spiegel-Regular" family="Spiegel" pointSize="25"/>
+                                <color key="textColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for playing League HQ!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4DS-BG-pCp">
+                                <rect key="frame" x="27" y="200" width="359" height="76"/>
+                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="30"/>
+                                <color key="textColor" red="0.94117647058823528" green="0.90196078431372551" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="k6F-gA-q7Q">
+                                <rect key="frame" x="71" y="554" width="272" height="44"/>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.76510959199999995" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BeaufortforLOL-Bold" family="Beaufort for LOL" pointSize="28"/>
+                                <state key="normal" title="Start Over" backgroundImage="Button">
+                                    <color key="titleColor" red="0.63921568627450975" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="c2m-6y-e5g" kind="show" id="9R6-vq-NcA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4DS-BG-pCp" firstAttribute="leading" secondItem="lmw-zn-bht" secondAttribute="leading" constant="27" id="U0p-rr-ppm"/>
+                            <constraint firstItem="lmw-zn-bht" firstAttribute="trailing" secondItem="4DS-BG-pCp" secondAttribute="trailing" constant="28" id="Yr1-uc-hlp"/>
+                            <constraint firstItem="lmw-zn-bht" firstAttribute="bottom" secondItem="k6F-gA-q7Q" secondAttribute="bottom" constant="138" id="Zak-f6-Wxm"/>
+                            <constraint firstItem="GIt-IB-wXj" firstAttribute="top" secondItem="4DS-BG-pCp" secondAttribute="bottom" constant="93" id="fEV-aI-9EW"/>
+                            <constraint firstItem="4DS-BG-pCp" firstAttribute="top" secondItem="lmw-zn-bht" secondAttribute="top" constant="180" id="fSF-qZ-wHB"/>
+                            <constraint firstItem="k6F-gA-q7Q" firstAttribute="centerX" secondItem="eOx-94-oiL" secondAttribute="centerX" id="wtW-kG-IWk"/>
+                            <constraint firstItem="GIt-IB-wXj" firstAttribute="centerX" secondItem="eOx-94-oiL" secondAttribute="centerX" id="x89-QB-Vzj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lmw-zn-bht"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblResults" destination="GIt-IB-wXj" id="VFw-db-Hh5"/>
+                        <outlet property="lblTitle" destination="4DS-BG-pCp" id="72W-L4-M6W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zch-rK-ZSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746.39999999999998" y="28.335832083958024"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="002a - Host Speaking (With Progress)" width="375" height="812"/>
+        <image name="Button" width="272" height="44"/>
+        <image name="Question BG" width="357" height="485"/>
+        <image name="Text" width="375" height="385"/>
+    </resources>
+</document>
